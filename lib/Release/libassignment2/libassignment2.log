@@ -1,0 +1,33 @@
+﻿Build started 10/6/2015 2:41:32 PM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\libsrc\animation\libassignment2.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I".\..\..\3rdparty\eigen-3.2.2" /I.\..\..\3rdparty\DevIL1.6.7\include /I.\..\..\3rdparty\FBX.SDK.2014.2\include /I.\..\..\3rdparty\glut /I.\..\..\3rdparty\AntTweakBar.1.16\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D FBXSDK_SHARED /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\lib\Release\libassignment2\\" /Fd"..\..\lib\Release\libassignment2\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt aAnimatables.cpp aBVHController.cpp aTransform.cpp
+         aAnimatables.cpp
+         aBVHController.cpp
+         aTransform.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libassignment2.lib" /NOLOGO /LTCG ..\..\lib\Release\libassignment2\aAnimatables.obj
+         ..\..\lib\Release\libassignment2\aBVHController.obj
+         ..\..\lib\Release\libassignment2\aRotation.obj
+         ..\..\lib\Release\libassignment2\aSplineQuat.obj
+         ..\..\lib\Release\libassignment2\aTransform.obj
+         libassignment2.vcxproj -> D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\libsrc\animation\..\..\lib\libassignment2.lib
+       PostBuildEvent:
+         copy *.h ..\..\include
+         :VCEnd
+         aAnimatables.h
+         aBVHController.h
+         aIKController.h
+         aMotion.h
+         aMotionController.h
+         aRotation.h
+         aSplineQuat.h
+         aSplineVec3.h
+         aTransform.h
+         aVector.h
+                10 file(s) copied.
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\libsrc\animation\libassignment2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.42

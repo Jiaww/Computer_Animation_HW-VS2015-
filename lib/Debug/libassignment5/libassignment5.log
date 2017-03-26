@@ -1,0 +1,25 @@
+﻿  libassignment5.vcxproj -> F:\VS2015_project\a\CIS-462562-AnimationToolkit-JiaweiWang\libsrc\animation\..\..\lib\libassignment5d.lib
+  aActor.h
+  aBehaviorController.h
+  aBehaviors.h
+  aBVHController.h
+  aFireworks.h
+  aIKController.h
+  aJitter.h
+  aJoint.h
+  aMatrix.h
+  aMotion.h
+  aMotionController.h
+  aParticle.h
+  aParticleSystem.h
+  aRocket.h
+  aRotation.h
+  aSkeleton.h
+  aSpark.h
+  aSplineQuat.h
+  aSplineQuaternion.h
+  aSplineVec3.h
+  aTarget.h
+  aTransform.h
+  aVector.h
+         23 file(s) copied.

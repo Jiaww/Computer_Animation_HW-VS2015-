@@ -1,0 +1,20 @@
+﻿Build started 10/12/2015 2:42:57 PM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\libsrc\animation\libassignment2.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I".\..\..\3rdparty\eigen-3.2.2" /I.\..\..\3rdparty\DevIL1.6.7\include /I.\..\..\3rdparty\FBX.SDK.2014.2\include /I.\..\..\3rdparty\glut /I.\..\..\3rdparty\AntTweakBar.1.16\include /Z7 /nologo /W3 /WX- /Od /Oy- /D FBXSDK_SHARED /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\lib\Debug\libassignment2\\" /Fd"..\..\lib\Debug\libassignment2\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt aActor.cpp aAnimatables.cpp aBVHController.cpp aRotation.cpp aSplineQuat.cpp aTransform.cpp
+         aActor.cpp
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\hw4 - animationtoolkit - solution\libsrc\animation\aActor.h(56): error C2079: 'AActor::mBVHController' uses undefined class 'BVHController'
+     1>aActor.cpp(73): error C2440: 'return' : cannot convert from 'int *' to 'BVHController *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         aAnimatables.cpp
+         aBVHController.cpp
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\hw4 - animationtoolkit - solution\libsrc\animation\aActor.h(56): error C2079: 'AActor::mBVHController' uses undefined class 'BVHController'
+         aRotation.cpp
+         aSplineQuat.cpp
+         aTransform.cpp
+         Generating Code...
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\libsrc\animation\libassignment2.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.71

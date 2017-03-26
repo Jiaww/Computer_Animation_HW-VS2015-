@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (A5-Behaviors-soln.vcxproj, A5-BehaviorViewer.vcxproj, A5-Behaviors.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  BehaviorViewer-soln.vcxproj -> D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\2016\VS2015\HW9 - AnimationToolkit - Solution\assignment5\..\bin\A5-BehaviorViewer-solnd.exe
+  The file cannot be copied onto itself.
+          0 file(s) copied.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: The command "copy ..\bin\A5-BehaviorViewer-solnd.exe ..\bin
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(133,5): error MSB3073: :VCEnd" exited with code 1.

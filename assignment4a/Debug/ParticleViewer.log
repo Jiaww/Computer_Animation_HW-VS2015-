@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (A4a-ParticleViewer-soln.vcxproj, A4a-ParticleViewer.vcxproj, A4a-ParticleViewer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  particleMain.cpp
+  ParticleViewer.cpp
+  Generating Code...
+  ParticleViewer.vcxproj -> F:\VS2015_project\a\CIS-462562-AnimationToolkit-JiaweiWang\assignment4a\Debug\A4a-ParticleViewerd.exe
+  ParticleViewer.vcxproj -> Debug\A4a-ParticleViewerd.pdb (Full PDB)
+          1 file(s) copied.

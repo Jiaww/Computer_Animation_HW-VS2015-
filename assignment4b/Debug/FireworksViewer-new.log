@@ -1,0 +1,21 @@
+﻿Build started 11/20/2015 11:24:57 AM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW8 - AnimationToolkit - Solution\assignment4d\FireworksViewer-new.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (A4b-Fireworks-soln.vcxproj, A4b-Fireworks.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I.\..\3rdparty\DevIL1.6.7\include /I.\..\3rdparty\FBX.SDK.2014.2\include /I.\..\3rdparty\glut /I.\..\3rdparty\AntTweakBar.1.16\include /I.\..\libsrc\animation\particlesystem /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FBXSDK_SHARED /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\A4b-Fireworks-new.pdb" /Gd /TP /wd4244 /wd4305 /wd4018 /analyze- /errorReport:prompt FireworksViewer.cpp fireworksMain.cpp
+         FireworksViewer.cpp
+         fireworksMain.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\A4b-Fireworks-newd.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib /LIBPATH:.\..\3rdparty\DevIL1.6.7\lib /LIBPATH:.\..\3rdparty\FBX.SDK.2014.2\lib\vs2008\x86\release /LIBPATH:.\..\3rdparty\glut\glutx86 /LIBPATH:.\..\3rdparty\AntTweakBar.1.16\lib libUId.lib "libAssignment1-solnd.lib" "libAssignment2a-solnd.lib" "libAssignment2b-solnd.lib" "libAssignment2c-solnd.lib" libAssignment4newd.lib libfbxsdk.lib glew32.lib DevIL.lib ILU.lib ILUT.lib AntTweakBar.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\bin\A4b-Fireworks-newd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\A4b-Fireworks-newd.lib" /MACHINE:X86 /SAFESEH Debug\fireworksMain.obj
+         Debug\FireworksViewer.obj
+         FireworksViewer-new.vcxproj -> D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW8 - AnimationToolkit - Solution\assignment4d\..\bin\A4b-Fireworks-newd.exe
+       PostBuildEvent:
+         copy ..\bin\A4b-Fireworks-newd.exe ..\..\bin
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW8 - AnimationToolkit - Solution\assignment4d\FireworksViewer-new.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.07

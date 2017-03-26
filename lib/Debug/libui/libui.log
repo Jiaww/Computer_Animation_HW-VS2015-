@@ -1,0 +1,10 @@
+﻿  libui.vcxproj -> F:\VS2015_project\a\CIS-462562-AnimationToolkit-JiaweiWang\libsrc\ui\..\..\lib\libuid.lib
+  aBasicViewer.h
+  aCamera.h
+  aFBX.h
+  aImage.h
+  aSceneCache.h
+  aSceneDrawer.h
+  aTimer.h
+  aWin32Utils.h
+          8 file(s) copied.

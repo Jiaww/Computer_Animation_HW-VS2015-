@@ -1,0 +1,78 @@
+﻿Build started 10/12/2015 10:10:41 AM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\assignment2c\IKViewer-soln.vcxproj" on node 3 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (A2c-IKViewer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I.\..\3rdparty\DevIL1.6.7\include /I.\..\3rdparty\FBX.SDK.2014.2\include /I.\..\3rdparty\glut /I.\..\3rdparty\AntTweakBar.1.16\include /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FBXSDK_SHARED /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\A2c-IKViewer-soln.pdb" /Gd /TP /wd4244 /wd4305 /wd4018 /analyze- /errorReport:prompt IKMain.cpp IKViewer.cpp
+         IKMain.cpp
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C2143: syntax error : missing ',' before '&'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): error C2143: syntax error : missing ';' before '&'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): warning C4183: 'getSkeleton': missing return type; assumed to be a member function returning 'int'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(22): error C2146: syntax error : missing ';' before identifier 'mSkeleton'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(23): error C2065: 'AnimatableTransform' : undeclared identifier
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(23): error C2059: syntax error : '>'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(23): error C2976: 'std::vector' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(650) : see declaration of 'std::vector'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C2065: 'mSkeleton' : undeclared identifier
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C2065: 'actor' : undeclared identifier
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): error C2065: 'mSkeleton' : undeclared identifier
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\hw4 - animationtoolkit - solution\assignment2c\IKViewer.h(41): error C2146: syntax error : missing ';' before identifier 'mActor'
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\hw4 - animationtoolkit - solution\assignment2c\IKViewer.h(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         IKViewer.cpp
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C2143: syntax error : missing ',' before '&'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): error C2143: syntax error : missing ';' before '&'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): warning C4183: 'getSkeleton': missing return type; assumed to be a member function returning 'int'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(22): error C2146: syntax error : missing ';' before identifier 'mSkeleton'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(23): error C2065: 'AnimatableTransform' : undeclared identifier
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(23): error C2059: syntax error : '>'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(23): error C2976: 'std::vector' : too few template arguments
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vector(650) : see declaration of 'std::vector'
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C2065: 'mSkeleton' : undeclared identifier
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(11): error C2065: 'actor' : undeclared identifier
+     1>D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\include\aIKController.h(12): error C2065: 'mSkeleton' : undeclared identifier
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\hw4 - animationtoolkit - solution\assignment2c\IKViewer.h(41): error C2146: syntax error : missing ';' before identifier 'mActor'
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\hw4 - animationtoolkit - solution\assignment2c\IKViewer.h(41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>IKViewer.cpp(49): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(50): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(50): error C2664: 'void AFBX::GetPose(double,ASkeleton &)' : cannot convert argument 2 from 'unknown-type' to 'ASkeleton &'
+     1>IKViewer.cpp(51): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(51): error C2228: left of '.updateTransforms' must have class/struct/union
+                 type is 'unknown-type'
+     1>IKViewer.cpp(52): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(60): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(60): error C2664: 'void AFBX::GetPose(double,ASkeleton &)' : cannot convert argument 2 from 'unknown-type' to 'ASkeleton &'
+     1>IKViewer.cpp(61): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(61): error C2228: left of '.updateTransforms' must have class/struct/union
+                 type is 'unknown-type'
+     1>IKViewer.cpp(62): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(76): error C2664: 'void AFBX::SetPose(const ASkeleton &)' : cannot convert argument 1 from 'int' to 'const ASkeleton &'
+                 Reason: cannot convert from 'int' to 'const ASkeleton'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+     1>IKViewer.cpp(168): error C2065: 'mActor' : undeclared identifier
+     1>IKViewer.cpp(168): error C2228: left of '.getByID' must have class/struct/union
+                 type is 'unknown-type'
+     1>IKViewer.cpp(168): error C2227: left of '->getGlobalTranslation' must point to class/struct/union/generic type
+     1>IKViewer.cpp(181): error C2228: left of '.getNumTransforms' must have class/struct/union
+                 type is 'int'
+     1>IKViewer.cpp(183): error C2065: 'Joint' : undeclared identifier
+     1>IKViewer.cpp(183): error C2065: 'joint' : undeclared identifier
+     1>IKViewer.cpp(183): error C2228: left of '.getByID' must have class/struct/union
+                 type is 'int'
+     1>IKViewer.cpp(188): error C2065: 'joint' : undeclared identifier
+     1>IKViewer.cpp(188): error C2227: left of '->getName' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>IKViewer.cpp(191): error C2065: 'joint' : undeclared identifier
+     1>IKViewer.cpp(191): error C2227: left of '->getName' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>IKViewer.cpp(191): error C2228: left of '.c_str' must have class/struct/union
+         Generating Code...
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\HW4 - AnimationToolkit - Solution\assignment2c\IKViewer-soln.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.19

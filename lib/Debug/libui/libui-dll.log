@@ -1,0 +1,23 @@
+﻿Build started 9/15/2016 8:51:55 PM.
+     1>Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\2016\HW2 - AnimationToolkit\libsrc\ui\libui-dll.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I..\animation /I.\..\..\3rdparty\DevIL1.6.7\include /I.\..\..\3rdparty\FBX.SDK.2014.2\include /I.\..\..\3rdparty\glut /I.\..\..\3rdparty\AntTweakBar.1.16\include /Z7 /nologo /W3 /WX- /Od /Oy- /D UI_DLL /D WIN32 /D _WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D FBXSDK_SHARED /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\lib\Debug\libUI\\" /Fd"..\..\lib\Debug\libUI\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt aBasicViewer.cpp aCamera.cpp aFBX.cpp aImage.cpp aSceneCache.cpp aSceneDrawer.cpp aTimer.cpp aWin32Utils.cpp
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+         aBasicViewer.cpp
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\2016\hw2 - animationtoolkit\libsrc\ui\aFBX.h(22): fatal error C1083: Cannot open include file: 'aTransform.h': No such file or directory
+         aCamera.cpp
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\2016\hw2 - animationtoolkit\libsrc\ui\aCamera.h(10): fatal error C1083: Cannot open include file: 'aRotation.h': No such file or directory
+         aFBX.cpp
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\2016\hw2 - animationtoolkit\libsrc\ui\aFBX.h(22): fatal error C1083: Cannot open include file: 'aTransform.h': No such file or directory
+         aImage.cpp
+         aSceneCache.cpp
+         aSceneDrawer.cpp
+     1>d:\vcprojects\cis462-562 animation toolkit - master (local)\2016\hw2 - animationtoolkit\libsrc\ui\aFBX.h(22): fatal error C1083: Cannot open include file: 'aTransform.h': No such file or directory
+         aTimer.cpp
+         aWin32Utils.cpp
+         Generating Code...
+     1>Done Building Project "D:\VCProjects\CIS462-562 Animation Toolkit - Master (Local)\2016\HW2 - AnimationToolkit\libsrc\ui\libui-dll.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.26
