@@ -18,6 +18,7 @@ All of the projects are developed in VS2015, it includes many topics on computer
   Implement a basic particle system simulation and a basic fireworks simulation.
 * Behavioral Animation
   The implementation of behaviors for characters used in games and crowd simulations. (2D disk-shaped vehicle)
+  
   ![](screenshots/ss10.PNG)
 # Results & Demos
 * Curve Editor
