@@ -21,27 +21,27 @@ All of the projects are developed in VS2015, it includes many topics on computer
   
   ![](screenshots/ss10.PNG)
 # Results & Demos
-* Curve Editor
+* **Curve Editor**
   ![](screenshots/ss02.PNG)
   ![](screenshots/ss03.PNG)
 
-* Rotation
+* **Rotation**
   ![](screenshots/ss04.PNG)
   ![](screenshots/ss05.PNG)
 
-* Forward Kinematics
+* **Forward Kinematics**
   [![](screenshots/ss11.PNG)](https://youtu.be/95jWiHhXON4)
   
-* Inverse Kinematics
+* **Inverse Kinematics**
   ![](screenshots/ss06.PNG)
   ![](screenshots/ss07.PNG)
   ![](screenshots/ss08.PNG)
 
-* Particle Systems
+* **Particle Systems**
   * Fireworks Simulation:
   ![](screenshots/ss09.PNG)
 
-* Behavioral Animation
+* **Behavioral Animation**
   [![](screenshots/ss12.PNG)](https://youtu.be/c14euppFaDA)
   
 
